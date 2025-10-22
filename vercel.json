@@ -23,10 +23,5 @@
       "dest": "/$1"
     }
   ],
-  "env": {
-    "SUPABASE_URL": "@supabase_url",
-    "SUPABASE_ANON_KEY": "@supabase_anon_key",
-    "JWT_SECRET": "@jwt_secret",
-    "NODE_ENV": "production"
-  }
+
 }
