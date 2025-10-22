@@ -1,41 +1,25 @@
-# 🧵 Sistema de Controle de Produção de Ternos
+# 🧵 Sistema de Ternos - API
 
-Sistema completo para gerenciamento de produção de ternos com app mobile e web.
+API serverless para sistema de controle de produção de ternos.
 
-## 🚀 Deploy Online
+## 🚀 Endpoints
 
-- **Web**: https://seu-projeto.vercel.app
-- **API**: https://seu-projeto.vercel.app/api
-- **Mobile**: Expo Go (escaneie QR code)
+- `GET /api/test` - Teste da API
+- `GET /api/status` - Status do sistema
+- `POST /api/login` - Login de usuários
 
 ## 🛠️ Tecnologias
 
-- **Backend**: Node.js + Express + Supabase
-- **Web**: React.js
-- **Mobile**: React Native + Expo
-- **Banco**: PostgreSQL (Supabase)
-
-## ⚙️ Configuração
-
-1. Clone o repositório
-2. Configure `.env` no backend
-3. Execute `npm install` em cada pasta
-4. Deploy no Vercel
+- Node.js + Vercel Serverless
+- Supabase (PostgreSQL)
+- JWT Authentication
 
 ## 📱 Login Padrão
 
 - **Usuário**: admin
 - **Senha**: password
 
-## 🔧 Desenvolvimento
+## 🔗 Links
 
-```bash
-# Backend
-cd backend && npm start
-
-# Web
-npm start
-
-# Mobile
-cd mobile && npm start
-```
+- **API**: https://vhgravataswebmobile1-git-main-g7brs-projects.vercel.app/api/test
+- **Status**: https://vhgravataswebmobile1-git-main-g7brs-projects.vercel.app/api/status
