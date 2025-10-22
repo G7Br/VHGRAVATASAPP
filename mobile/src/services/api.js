@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Configuração local com Supabase
-const API_BASE_URL = 'http://localhost:3002/api';
+// Configuração para produção
+const API_BASE_URL = 'https://vhgravataswebmobile1-git-main-g7brs-projects.vercel.app/api';
 
 console.log('🌐 API URL configurada:', API_BASE_URL);
 
