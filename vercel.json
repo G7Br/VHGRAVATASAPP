@@ -1,7 +1,28 @@
 {
+<<<<<<< HEAD
   "functions": {
     "api/index.js": {
       "runtime": "nodejs18.x"
     }
   }
 }
+=======
+  "version": 2,
+  "builds": [
+    {
+      "src": "backend/test-server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/backend/test-server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
+>>>>>>> 95a506d490028fbe1a0ad0c79560b44e08d742ac
